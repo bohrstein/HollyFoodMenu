@@ -46,7 +46,7 @@ export const categories: Category[] = [
     id: 'drinks',
     name: 'İçecekler',
     description: 'Çeşitli içeceklerimiz yemeğinizin yanında süper gider.',
-    image: 'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/drinks-2.jpg',
     icon: 'Coffee'
   },
   {
@@ -252,7 +252,7 @@ export const menuItems: MenuItem[] = [
     name: 'Coca Cola 330 ml',
     description: 'Kutu Coca Cola içeceği.',
     price: 50.00,
-    image: 'https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/coca-cola-330-2.png',
     ingredients: ['Kola'],
     category: 'drinks'
   },
@@ -261,7 +261,7 @@ export const menuItems: MenuItem[] = [
     name: 'Coca Cola 1 Litre',
     description: '1 litrelik Coca Cola.',
     price: 65.00,
-    image: 'https://images.pexels.com/photos/1799738/pexels-photo-1799738.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/coca-cola-1-l.png',
     ingredients: ['Kola'],
     category: 'drinks'
   },
@@ -270,7 +270,7 @@ export const menuItems: MenuItem[] = [
     name: 'Coca Cola 200 ml Şişe',
     description: 'Cam şişe Coca Cola (200 ml).',
     price: 35.00,
-    image: 'https://images.pexels.com/photos/2271147/pexels-photo-2271147.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/coca-cola-200-2.png',
     ingredients: ['Kola'],
     category: 'drinks'
   },
@@ -279,7 +279,7 @@ export const menuItems: MenuItem[] = [
     name: 'Fanta 330 ml',
     description: 'Kutu Fanta içeceği.',
     price: 50.00,
-    image: 'https://images.pexels.com/photos/1769373/pexels-photo-1769373.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/fanta-330.png',
     ingredients: ['Gazlı içecek'],
     category: 'drinks'
   },
@@ -288,7 +288,7 @@ export const menuItems: MenuItem[] = [
     name: 'Cappy 330 ml',
     description: 'Kutu meyve suyu çeşitleri.',
     price: 50.00,
-    image: 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/cappy.jpg',
     ingredients: ['Meyve suyu'],
     category: 'drinks'
   },
@@ -297,7 +297,7 @@ export const menuItems: MenuItem[] = [
     name: 'Fuse Tea 330 ml',
     description: 'Kutu buzlu çay çeşitleri.',
     price: 50.00,
-    image: 'https://images.pexels.com/photos/1693656/pexels-photo-1693656.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/fuse-tea-1.png',
     ingredients: ['Buzlu çay'],
     category: 'drinks'
   },
@@ -306,7 +306,7 @@ export const menuItems: MenuItem[] = [
     name: 'Eker Ayran 270 ml',
     description: 'Eker marka kutu ayran.',
     price: 30.00,
-    image: 'https://images.pexels.com/photos/827519/pexels-photo-827519.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/eker-ayran-300.png',
     ingredients: ['Ayran'],
     category: 'drinks'
   },
@@ -315,7 +315,7 @@ export const menuItems: MenuItem[] = [
     name: 'Turnib Şalgam 330 ml',
     description: 'Turnib marka 330 ml şalgam suyu.',
     price: 30.00,
-    image: 'https://images.pexels.com/photos/933200/pexels-photo-933200.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/turnib-salgam.jpg',
     ingredients: ['Şalgam'],
     category: 'drinks'
   },
@@ -324,7 +324,7 @@ export const menuItems: MenuItem[] = [
     name: 'Sade Soda',
     description: 'Doğal mineralli sade soda.',
     price: 20.00,
-    image: 'https://images.pexels.com/photos/814292/pexels-photo-814292.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/beypazari-soda.jpg',
     ingredients: ['Soda'],
     category: 'drinks'
   },
@@ -333,7 +333,7 @@ export const menuItems: MenuItem[] = [
     name: 'Meyveli Soda',
     description: 'Meyveli aromalı soda çeşitleri.',
     price: 25.00,
-    image: 'https://images.pexels.com/photos/750697/pexels-photo-750697.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/meyveli.png',
     ingredients: ['Aromalı soda'],
     category: 'drinks'
   },
@@ -342,7 +342,7 @@ export const menuItems: MenuItem[] = [
     name: 'Nescafe Xpress Soğuk Kahve',
     description: 'Hazır kutu soğuk kahve.',
     price: 65.00,
-    image: 'https://images.pexels.com/photos/7972685/pexels-photo-7972685.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/nescafe.jpg',
     ingredients: ['Soğuk kahve'],
     category: 'drinks'
   },
@@ -351,7 +351,7 @@ export const menuItems: MenuItem[] = [
     name: 'Su',
     description: 'Doğal kaynak suyu.',
     price: 10.00,
-    image: 'https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/erikli.png',
     ingredients: ['Su'],
     category: 'drinks'
   },
@@ -360,7 +360,7 @@ export const menuItems: MenuItem[] = [
     name: 'Çay',
     description: 'Taze demlenmiş siyah çay.',
     price: 15.00,
-    image: 'https://images.pexels.com/photos/302090/pexels-photo-302090.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/cay.png',
     ingredients: ['Çay'],
     category: 'drinks'
   },
@@ -369,7 +369,7 @@ export const menuItems: MenuItem[] = [
     name: 'Nescafe Sıcak',
     description: 'Hazır granül nescafe sıcak kahve.',
     price: 25.00,
-    image: 'https://images.pexels.com/photos/33257/cup-mug-coffee-caffeine.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/nescafe-bardak.jpg',
     ingredients: ['Granül kahve', 'Sıcak su'],
     category: 'drinks'
   },
@@ -378,7 +378,7 @@ export const menuItems: MenuItem[] = [
     name: 'Profiterol',
     description: 'Çikolatalı soslu profiterol tatlısı.',
     price: 40.00,
-    image: 'https://images.pexels.com/photos/1126355/pexels-photo-1126355.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/profi.jpg',
     ingredients: ['Hamur topu', 'Çikolata sos', 'Krema'],
     category: 'desserts'
   },
@@ -387,7 +387,7 @@ export const menuItems: MenuItem[] = [
     name: 'Sütlaç',
     description: 'Fırında pişmiş geleneksel sütlaç.',
     price: 40.00,
-    image: 'https://images.pexels.com/photos/1397511/pexels-photo-1397511.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/sutlac.jpg',
     ingredients: ['Süt', 'Pirinç', 'Şeker', 'Tarçın'],
     category: 'desserts'
   }
